@@ -1,0 +1,79 @@
+@font-face {
+    font-family: KyivType Sans Med;
+    src: url(/fonts/kyivtype-sans-medium.ttf) format('truetype');
+}   
+
+@font-face {
+    font-family: KyivType Sans regular;
+    src: url(/fonts/KyivType-Sans-Regular-.ttf) format('truetype');
+}
+@font-face {
+    font-family: KyivType Sans l;
+    src: url(/fonts/kyivtype-sans-light.ttf) format('truetype');
+}
+
+/* -----------------------------------FONT SECTION------------------------------------ */
+
+    *{
+        background-color: #f9fafb;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'KyivType Sans regular', sans-serif;        
+    }
+
+    .hero{
+        height: 100vh;
+        width: 100%;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    .logo{
+        color: #A09689;
+        font-size: 40px;
+        font-family: 'KyivType Sans l', sans-serif; 
+    }
+   
+    nav ul li {
+        list-style-type:none;
+        display: inline-block;
+        padding: 10px 15px;
+        
+        ;
+    }
+
+    nav ul li a {
+
+        text-decoration: none ;
+        color: #696969;
+    }
+    
+    nav ul li a:hover{
+        color: #A09689;
+    }
+
+    button{
+        border: none;
+        background: #071C0A;
+        color: #ffff;
+        padding: 9px 35px;
+        border-radius: 11px;
+        font-size: 15px;
+    }
+
+    button:hover{
+        background: #F5F5F5;
+        color: #A09689;
+        transition: .3s ;
+    }
+    /* --------------------------------------------- */
+
